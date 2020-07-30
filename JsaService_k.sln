@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsaWebService", "JsaWebService\JsaWebService.csproj", "{3DBEEC80-0E45-49B5-8334-D85E5CEA9BA8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88BE354A-3838-42F4-ADC4-0E0714DB65E8} = {88BE354A-3838-42F4-ADC4-0E0714DB65E8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsaData", "JsaData\JsaData.csproj", "{E87946EA-2548-4997-9DF5-8EE3FC7D1E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsaService", "JsaService\JsaService.csproj", "{C02CD942-2712-4ED1-BB4C-22226434E959}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88BE354A-3838-42F4-ADC4-0E0714DB65E8} = {88BE354A-3838-42F4-ADC4-0E0714DB65E8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsaWebClient", "JsaWebClient\JsaWebClient.csproj", "{48E75E83-F0D7-4504-93BC-B7D91DD33AA1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88BE354A-3838-42F4-ADC4-0E0714DB65E8} = {88BE354A-3838-42F4-ADC4-0E0714DB65E8}
+		{3DBEEC80-0E45-49B5-8334-D85E5CEA9BA8} = {3DBEEC80-0E45-49B5-8334-D85E5CEA9BA8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsizDocFlowWS", "..\EUslugi\WsizDocFlowWS\WsizDocFlowWS.csproj", "{88BE354A-3838-42F4-ADC4-0E0714DB65E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DBEEC80-0E45-49B5-8334-D85E5CEA9BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBEEC80-0E45-49B5-8334-D85E5CEA9BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBEEC80-0E45-49B5-8334-D85E5CEA9BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBEEC80-0E45-49B5-8334-D85E5CEA9BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87946EA-2548-4997-9DF5-8EE3FC7D1E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87946EA-2548-4997-9DF5-8EE3FC7D1E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87946EA-2548-4997-9DF5-8EE3FC7D1E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87946EA-2548-4997-9DF5-8EE3FC7D1E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02CD942-2712-4ED1-BB4C-22226434E959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02CD942-2712-4ED1-BB4C-22226434E959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02CD942-2712-4ED1-BB4C-22226434E959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02CD942-2712-4ED1-BB4C-22226434E959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E75E83-F0D7-4504-93BC-B7D91DD33AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E75E83-F0D7-4504-93BC-B7D91DD33AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E75E83-F0D7-4504-93BC-B7D91DD33AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E75E83-F0D7-4504-93BC-B7D91DD33AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BE354A-3838-42F4-ADC4-0E0714DB65E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BE354A-3838-42F4-ADC4-0E0714DB65E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BE354A-3838-42F4-ADC4-0E0714DB65E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BE354A-3838-42F4-ADC4-0E0714DB65E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC519AE3-9222-47EA-8E69-2DA4FB31590E}
+	EndGlobalSection
+EndGlobal
